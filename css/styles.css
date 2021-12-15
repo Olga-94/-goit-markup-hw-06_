@@ -293,7 +293,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   height: 70px;
-  padding-top: 27px;
   color: var(--title-secondary-color);
   color: rgba(255, 255, 255, 1);
   background-color: rgba(47, 48, 58, 0.8);
@@ -301,6 +300,8 @@ body {
   position: absolute;
   width: 100%;
   bottom: 0; 
+  display: flex;
+  align-items: center;
 }
 
 /*===========END SECTION FEATURES=========*/
@@ -401,7 +402,7 @@ body {
   height: 44px;
   border-radius: 50%;
   fill: var(--color-icon);
-  transition: all 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function),  background-color 250ms var(--timing-function);
 }
 
 .social-list-icon {
@@ -416,10 +417,6 @@ fill: currentColor;
   color: var(--title-secondary-color);
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--title-secondary-color);
-}
 
 /*===========END SECTION OUR TEAM=========*/
 
@@ -444,7 +441,7 @@ fill: currentColor;
   border: 1px solid var(--color-icon);
   border-radius: 4px;
   color: var(--color-icon);
-  transition: all 250ms var(--timing-function), border-color 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
 }
 
 
@@ -495,7 +492,7 @@ fill: currentColor;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  transition: all 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .footer-address-list-item:not(:last-child) {
@@ -524,7 +521,7 @@ fill: currentColor;
     border-radius: 50%;
     fill: var(--title-secondary-color);
     background-color: rgba(255, 255, 255, 0.1);
-    transition: all 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function);
   }
 
 .footer-social-list-link:hover,
@@ -535,6 +532,7 @@ fill: currentColor;
 .footer-social-list-icon {
   width: 20px;
   height: 20px;
+  
 }
 
 .footer-social-list { 
