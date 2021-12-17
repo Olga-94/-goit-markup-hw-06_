@@ -690,8 +690,7 @@ margin-bottom: 12px;
   height:18px;
   top: 50%;
   left: 12px;
- transform: translateY(-50%); 
- fill: currentColor;
+ transform: translateY(-50%);
  transition: fill 250ms var(--timing-function);
 }
 
