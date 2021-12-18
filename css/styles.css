@@ -709,8 +709,12 @@ margin-bottom: 12px;
   margin-top: 4px;    
 }
 
-.modal-form-field{
+.modal-form-field {
   margin-bottom: 10px;
+}
+
+.modal-form-comment {
+  margin-bottom: 20px;
 }
 
 .modal-form-input:focus,
@@ -734,7 +738,6 @@ margin-bottom: 12px;
   margin-top: 4px;
   resize: none;
   transition: border-color 250ms var(--timing-function);
-  margin-bottom: 10px;
 }
 
 .modal-form-policy-txt::before{
@@ -817,6 +820,8 @@ align-items: center;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+
+
 /*===========END BACKDROP=========*/
 
 /*================== PORTFOLIO==========*/
